@@ -16,7 +16,7 @@ SATOSHI = 1000000
 SLASHING_PCT = 0.0001
 DENOM = "ujkl"
 CHAIN_ID = "jackal-1"
-keyring_passphrase = ""
+keyring_passphrase = "Z!NNFj9^se*Ur7JNAFT*o55Q^iqjAa*kSPbUi64rPXc8PRvvaZa3SbE"
 
 class SlashingRefund():
     
