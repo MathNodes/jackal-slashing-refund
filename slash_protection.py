@@ -65,7 +65,7 @@ class SlashingRefund():
                     print(child.before)
                     print(child.after)
                     child.expect(pexpect.EOF)    
-                    print(child.before)
+                    print(child.before.decode('utf-8'))
                     print(child.after)
 
                 except Exception as e:
