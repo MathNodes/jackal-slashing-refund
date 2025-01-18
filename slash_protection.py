@@ -14,6 +14,7 @@ KEYRING_DIR = "/home/jackal/.canine"
 CANINED = "/home/jackal/canined"
 SATOSHI = 1000000
 SLASHING_PCT = 0.0001
+COMP=1.15
 DENOM = "ujkl"
 CHAIN_ID = "jackal-1"
 keyring_passphrase = "Z!NNFj9^se*Ur7JNAFT*o55Q^iqjAa*kSPbUi64rPXc8PRvvaZa3SbE"
@@ -49,7 +50,7 @@ class SlashingRefund():
             transfer_cmd = self.__transfer_cmd % (CANINED, 
                                                   WALLET_ADDRESS,
                                                   address,
-                                                  int(amt)*1.5,
+                                                  int(amt)*COMP,
                                                   DENOM,
                                                   CHAIN_ID)
             
